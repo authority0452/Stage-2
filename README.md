@@ -2,10 +2,9 @@
 
 A responsive and accessible three-page web app built with HTML, CSS, and JavaScript**.
 
- Live Demo
- [View Live on Github](https://olatunde-profile-app.netlify.app)
-📁 Repository
- [GitHub Repo](https://github.com/<your-username>/profile-multi-page-app)
+
+ Repository
+ [GitHub Repo](https://github.com/authority0452/Stage-2)
 
 ---
 
@@ -37,5 +36,4 @@ A responsive and accessible three-page web app built with HTML, CSS, and JavaScr
     Github for hosting
 
 
- Run Locally
 
