@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <article class="profile-card" data-testid="test-profile-card">
+    <nav class="main-nav" aria-label="Main navigation">
+  <ul>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+    <header class="profile-header">
+      <figure class="profile-avatar">
+        <img 
+          src="/IMG_0987.JPG" 
+          alt="User avatar" 
+          data-testid="test-user-avatar" 
+        />
+      </figure>
+      <div class="profile-info">
+        <h2 data-testid="test-user-name">Olatunde Authority</h2>
+        <p data-testid="test-user-bio">
+          Passionate front-end developer who loves crafting accessible and responsive web experiences.
+        </p>
+        <p>
+          Current time (ms): 
+          <span id="user-time" data-testid="test-user-time"></span>
+        </p>
+      </div>
+    </header>
+
+
+    <nav aria-label="Social links">
+      <ul class="social-links" data-testid="test-user-social-links">
+        <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+      </ul>
+    </nav>
+
+    <section class="hobbies-section">
+      <h3>Hobbies</h3>
+      <ul data-testid="test-user-hobbies">
+        <li>Coding</li>
+        <li>playing Football</li>
+        <li>Playing video games</li>
+      </ul>
+    </section>
+
+    <section class="dislikes-section">
+      <h3>Dislikes</h3>
+      <ul data-testid="test-user-dislikes">
+        <li>Raw Foods</li>
+        <li>Bad UX</li>
+        <li>Spam emails</li>
+      </ul>
+    </section>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>
